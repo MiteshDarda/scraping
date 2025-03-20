@@ -1,0 +1,39 @@
+2025-03-14 23:37:41,634 - efloraofindia_scraper - INFO - Logger initialized
+2025-03-14 23:37:41,634 - efloraofindia_scraper - INFO - Scraping recent posts from 2 pages
+2025-03-14 23:37:41,634 - efloraofindia_scraper - INFO - Scraping page 1 of 2
+2025-03-14 23:37:41,635 - efloraofindia_scraper - INFO - Fetching page: https://efloraofindia.com/
+2025-03-14 23:37:42,247 - efloraofindia_scraper - DEBUG - Successfully fetched page: https://efloraofindia.com/
+2025-03-14 23:37:42,278 - efloraofindia_scraper - DEBUG - Found 1 articles on page 1
+2025-03-14 23:37:42,280 - efloraofindia_scraper - DEBUG - Waiting 2.67 seconds before next request
+2025-03-14 23:37:44,955 - efloraofindia_scraper - INFO - Scraping page 2 of 2
+2025-03-14 23:37:44,955 - efloraofindia_scraper - INFO - Fetching page: https://efloraofindia.com/page/2/
+2025-03-14 23:37:45,312 - efloraofindia_scraper - DEBUG - Successfully fetched page: https://efloraofindia.com/page/2/
+2025-03-14 23:37:45,340 - efloraofindia_scraper - DEBUG - Found 1 articles on page 2
+2025-03-14 23:37:45,342 - efloraofindia_scraper - DEBUG - Waiting 2.40 seconds before next request
+2025-03-14 23:37:47,747 - efloraofindia_scraper - INFO - Total posts scraped: 0
+2025-03-14 23:37:47,748 - efloraofindia_scraper - INFO - Saving data to eflora_recent_posts.csv
+2025-03-14 23:37:47,748 - efloraofindia_scraper - WARNING - No data to save
+2025-03-14 23:37:47,748 - efloraofindia_scraper - INFO - Saving data to eflora_plant_details.csv
+2025-03-14 23:37:47,749 - efloraofindia_scraper - WARNING - No data to save
+2025-03-14 23:37:47,749 - efloraofindia_scraper - INFO - Starting image download to folder: images
+2025-03-14 23:37:47,749 - efloraofindia_scraper - DEBUG - Creating directory: images
+2025-03-14 23:37:47,750 - efloraofindia_scraper - INFO - Image download complete: 0 successful, 0 failed
+2025-03-14 23:42:49,056 - efloraofindia_scraper - INFO - Logger initialized
+2025-03-14 23:42:49,056 - efloraofindia_scraper - INFO - Scraping recent posts from 2 pages
+2025-03-14 23:42:49,056 - efloraofindia_scraper - INFO - Scraping page 1 of 2
+2025-03-14 23:42:49,056 - efloraofindia_scraper - INFO - Fetching page: https://efloraofindia.com/
+2025-03-14 23:42:49,672 - efloraofindia_scraper - DEBUG - Successfully fetched page: https://efloraofindia.com/
+2025-03-14 23:42:49,711 - efloraofindia_scraper - DEBUG - Found 1 articles on page 1
+2025-03-14 23:42:49,713 - efloraofindia_scraper - DEBUG - Waiting 1.27 seconds before next request
+2025-03-14 23:42:50,992 - efloraofindia_scraper - INFO - Scraping page 2 of 2
+2025-03-14 23:42:50,992 - efloraofindia_scraper - INFO - Fetching page: https://efloraofindia.com/page/2/
+2025-03-14 23:42:51,193 - efloraofindia_scraper - DEBUG - Successfully fetched page: https://efloraofindia.com/page/2/
+2025-03-14 23:42:51,229 - efloraofindia_scraper - DEBUG - Found 1 articles on page 2
+2025-03-14 23:42:51,231 - efloraofindia_scraper - DEBUG - Waiting 1.99 seconds before next request
+2025-03-14 23:42:53,221 - efloraofindia_scraper - INFO - Total posts scraped: 0
+2025-03-14 23:42:53,221 - efloraofindia_scraper - INFO - Saving data to eflora_recent_posts.csv
+2025-03-14 23:42:53,221 - efloraofindia_scraper - WARNING - No data to save
+2025-03-14 23:42:53,222 - efloraofindia_scraper - INFO - Saving data to eflora_plant_details.csv
+2025-03-14 23:42:53,222 - efloraofindia_scraper - WARNING - No data to save
+2025-03-14 23:42:53,222 - efloraofindia_scraper - INFO - Starting image download to folder: images
+2025-03-14 23:42:53,222 - efloraofindia_scraper - INFO - Image download complete: 0 successful, 0 failed
