@@ -17,8 +17,12 @@ class EFloraOfIndiaScraper:
         self.urls_by_depth = {}  # Dictionary to store URLs by depth
     
     def get_html(self, url):
+        print(f"Getting HTML for {url}")
         response = self.session.get(url, headers=self.headers)
         response.raise_for_status()
+        print(f"Response code: {response.status_code}")
+        print(f"Response URL: {response.url}")
+        print("Response Text", response.text)
         return response.text
     
     def save_to_txt(self, filename="scraped_urls.txt"):
@@ -152,3 +156,4 @@ if __name__ == "__main__":
     ]
     # Save to both txt and csv files
     scraper.scrape(depth_urls=depth_urls, output_format="both")
+    # scraper.get_html(url="https://efloraofindia.com/efi/andrographis/")
